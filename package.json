@@ -1,0 +1,43 @@
+{
+  "name": "@journey-to-code/open-clamp-number",
+  "version": "1.0.0",
+  "description": "Clamps numbers to ranges and checks whether values fall within bounds.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/journey-to-code-org/open.clamp-number.git"
+  },
+  "bugs": {
+    "url": "https://github.com/journey-to-code-org/open.clamp-number/issues"
+  },
+  "homepage": "https://github.com/journey-to-code-org/open.clamp-number#readme",
+  "keywords": [
+    "number",
+    "clamp",
+    "range",
+    "math"
+  ],
+  "license": "MIT",
+  "sideEffects": false
+}
